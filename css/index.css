@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    background: rgb(5, 6, 63);
+    display: flex;
+    justify-content: space-between;
+}
+#heading h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+#heading h1{
+    font-family: sans-serif;
+    width:14%;
+    padding: 15px;
+    
+}
+#heading nav{
+    display: flex;
+    align-items: center;
+    padding-right: 7%;
+}
+#heading nav ul{
+    display: flex;
+    list-style: none;
+}#heading nav a{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px;
+    display: block;
+    text-transform: uppercase;
+}
+#heading nav a:hover{
+              background: rgba(30, 56, 82, 0.598);
+}
